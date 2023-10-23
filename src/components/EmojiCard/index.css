@@ -1,0 +1,30 @@
+.emoji-box {
+  list-style-type: none;
+  width: 32%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.emoji-button {
+  background-color: #ffffff30;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #ffffff30;
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;
+}
+.emoji-img {
+  width: 50px;
+}
+@media screen and (min-width: 768px) {
+  .emoji-box {
+    width: 24%;
+  }
+  .emoji-button {
+    height: 200px;
+    width: 200px;
+  }
+  .emoji-img {
+    width: 100px;
+  }
+}
